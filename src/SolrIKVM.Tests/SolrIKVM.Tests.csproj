@@ -35,31 +35,31 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Core">
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Core.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Management">
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Management.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Management.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Text, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Text.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Text.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Util, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Util.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Util.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.API, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.XML.API.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.XML.API.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Parse">
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.XML.Parse.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Transform">
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.XML.Transform.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.XPath">
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.XML.XPath.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

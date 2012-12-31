@@ -34,45 +34,45 @@
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Core, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Core.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Management, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Management.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Management.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Naming, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Naming.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Naming.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Security, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Security.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Security.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.SwingAWT, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.SwingAWT.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Text, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Text.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Text.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Util, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.Util.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.Util.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.API, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.XML.API.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.XML.API.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Parse">
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.XML.Parse.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.XPath">
-      <HintPath>..\..\lib\IKVM\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.OpenJDK.XML.XPath.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.Runtime, Version=0.44.0.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\IKVM\IKVM.Runtime.dll</HintPath>
+      <HintPath>..\..\lib\IKVM\bin\IKVM.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="solr, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -91,6 +91,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemClassLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SolrIKVM\SolrIKVM.csproj">
