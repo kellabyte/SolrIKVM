@@ -1,4 +1,5 @@
-﻿using ikvm.runtime;
+﻿using System.Reflection;
+using ikvm.runtime;
 using java.lang;
 
 namespace SolrIKVM {

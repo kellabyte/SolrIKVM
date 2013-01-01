@@ -69,8 +69,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\Nunit\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="solr">
-      <HintPath>..\..\lib\solr.dll</HintPath>
+    <Reference Include="Solr">
+      <HintPath>..\..\lib\Solr\Solr.dll</HintPath>
     </Reference>
     <Reference Include="SolrNet">
       <HintPath>..\..\lib\SolrNet\SolrNet.dll</HintPath>

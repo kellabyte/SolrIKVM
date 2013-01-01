@@ -88,8 +88,8 @@
     <Reference Include="IKVM.Runtime">
       <HintPath>..\..\lib\IKVM\bin\IKVM.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="solr">
-      <HintPath>..\..\lib\solr.dll</HintPath>
+    <Reference Include="Solr">
+      <HintPath>..\..\lib\Solr\Solr.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -154,12 +154,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>SET solr=$(SolutionDir)..\lib\solr.dll
-IF NOT EXIST "%25solr%25" (
-    cd $(SolutionDir)..\
-    build.bat
-)
-</PreBuildEvent>
+    <PreBuildEvent Condition=" '$(OS)' == 'Windows_NT' ">cd $(SolutionDir)..\
+bin\Win-Bash\bash.exe build.sh -d</PreBuildEvent>
+    <PreBuildEvent Condition=" '$(OS)' != 'Windows_NT' ">cd $(SolutionDir)..\
+      ./build.sh -d
+    </PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
