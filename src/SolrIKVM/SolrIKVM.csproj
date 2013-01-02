@@ -156,9 +156,7 @@
   <PropertyGroup>
     <PreBuildEvent Condition=" '$(OS)' == 'Windows_NT' ">cd $(SolutionDir)..\
 bin\Win-Bash\bash.exe build.sh -d</PreBuildEvent>
-    <PreBuildEvent Condition=" '$(OS)' != 'Windows_NT' ">cd $(SolutionDir)..\
-      ./build.sh -d
-    </PreBuildEvent>
+    <PreBuildEvent Condition=" '$(OS)' != 'Windows_NT' ">cd $(ProjectDir)../../; ./build.sh -d</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

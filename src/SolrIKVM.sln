@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrIKVM", "SolrIKVM\SolrIKVM.csproj", "{B2306C49-9F51-4176-BCC6-9D001F3BBFB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrAspNet", "SolrAspNet\SolrAspNet.csproj", "{733C092D-BBD2-4042-B939-4DBBE0655DB0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrIKVM.Tests", "SolrIKVM.Tests\SolrIKVM.Tests.csproj", "{55AF36FD-30B6-4844-BB17-1222CC59D3BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrIKVM.Host.Console", "SolrIKVM.Host.Console\SolrIKVM.Host.Console.csproj", "{0DBB4C61-BD10-4A5D-9337-7F6948F00455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrAspNet", "SolrAspNet\SolrAspNet.csproj", "{733C092D-BBD2-4042-B939-4DBBE0655DB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,22 +15,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B2306C49-9F51-4176-BCC6-9D001F3BBFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2306C49-9F51-4176-BCC6-9D001F3BBFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2306C49-9F51-4176-BCC6-9D001F3BBFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2306C49-9F51-4176-BCC6-9D001F3BBFB6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{733C092D-BBD2-4042-B939-4DBBE0655DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{733C092D-BBD2-4042-B939-4DBBE0655DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{733C092D-BBD2-4042-B939-4DBBE0655DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{733C092D-BBD2-4042-B939-4DBBE0655DB0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{55AF36FD-30B6-4844-BB17-1222CC59D3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55AF36FD-30B6-4844-BB17-1222CC59D3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55AF36FD-30B6-4844-BB17-1222CC59D3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55AF36FD-30B6-4844-BB17-1222CC59D3BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0DBB4C61-BD10-4A5D-9337-7F6948F00455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0DBB4C61-BD10-4A5D-9337-7F6948F00455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DBB4C61-BD10-4A5D-9337-7F6948F00455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DBB4C61-BD10-4A5D-9337-7F6948F00455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AF36FD-30B6-4844-BB17-1222CC59D3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AF36FD-30B6-4844-BB17-1222CC59D3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AF36FD-30B6-4844-BB17-1222CC59D3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AF36FD-30B6-4844-BB17-1222CC59D3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733C092D-BBD2-4042-B939-4DBBE0655DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733C092D-BBD2-4042-B939-4DBBE0655DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733C092D-BBD2-4042-B939-4DBBE0655DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733C092D-BBD2-4042-B939-4DBBE0655DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2306C49-9F51-4176-BCC6-9D001F3BBFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2306C49-9F51-4176-BCC6-9D001F3BBFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2306C49-9F51-4176-BCC6-9D001F3BBFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2306C49-9F51-4176-BCC6-9D001F3BBFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SolrIKVM.Host.Console\SolrIKVM.Host.Console.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

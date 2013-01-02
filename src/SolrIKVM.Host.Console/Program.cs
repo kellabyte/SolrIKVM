@@ -12,7 +12,7 @@ namespace SolrIKVM.Host.Console
     {
         static int Main(string[] args)
         {
-            if (Environment.UserInteractive)
+            if (Environment.UserInteractive || Environment.OSVersion.Platform == PlatformID.Unix)
             {
                 if (args.Length == 0)
                 {
